@@ -4,7 +4,7 @@ class Grouping
     @number = number
   end
 
-  def group_by_length_of_username
+  def group_by_length_of_name
     sort = @array.sort_by { |name| name.length }
     group = sort.each_slice(@number).to_a
     group.each_with_index do |group, index|
