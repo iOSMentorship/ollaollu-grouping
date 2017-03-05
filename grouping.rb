@@ -19,7 +19,3 @@ class Grouping
     end
   end
 end
-
-
-g = Grouping.new(["hello", "hi", "yes", "no"], 2)
-g.group_by_length_of_username
